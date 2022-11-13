@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 42px;
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ p {
     margin: auto;
     width: 100%;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -51,4 +51,21 @@ form {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px 30px;
+    margin-bottom: 20px;
+}
+
+textarea, input {
+    width: 100%;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1.2px solid #32c9ca;
+    background-color: #151a1e
+    ;
+}
+
+::placeholder {
+   color: #808589;
+   opacity: 1;
 }
