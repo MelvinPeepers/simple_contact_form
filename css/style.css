@@ -16,7 +16,7 @@ body {
 .container {
     background-color: #151a1e;
     color: #e9ebed;
-    width: 95%;
+    width: 80%;
     min-width: 420px;
     padding: 35px 50px;
     transform: translate(-50%, -50%);
@@ -55,17 +55,43 @@ form {
     margin-bottom: 20px;
 }
 
+label {
+    color: #e9ebed;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 textarea, input {
     width: 100%;
     font-weight: 400;
     padding: 8px 10px;
     border-radius: 5px;
-    border: 1.2px solid #32c9ca;
-    background-color: #151a1e
-    ;
+    border: 1.2px solid #808589;
+    background-color: #151a1e;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: none;
 }
 
 ::placeholder {
-   color: #808589;
-   opacity: 1;
+    font-size: 14px;
+    color: #808589;
+    opacity: 1;
+}
+
+textarea:focus,
+input:focus {
+   outline: none;
+   border-color: #86f3df; 
+}
+
+button {
+    border: none;
+    padding: 12px 24px;
+    background: #86f3df;
+    font-size: 16px;
+    border-radius: 3px;
+
 }
