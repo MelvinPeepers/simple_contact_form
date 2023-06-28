@@ -22,7 +22,7 @@ body {
     transform: translate(-50%, -50%);
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 30%;
     border-radius: 10px;
     box-shadow: 20px 30px 25px rgba(0,0,0,0.15);
 }
@@ -85,6 +85,10 @@ textarea:focus,
 input:focus {
    outline: none;
    border-color: #86f3df; 
+}
+
+input[type="text"] {
+    color: #e9ebed; 
 }
 
 button {
