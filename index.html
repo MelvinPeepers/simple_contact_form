@@ -14,7 +14,9 @@
 
     <div class="container">
         <h1>Contact Me</h1>
+
         <p>Have any questions or suggestions?</p>
+
         <form>
             <div class="row">
                 <div class="column">
@@ -26,6 +28,7 @@
                     <input type="email" id="email" placeholder="Email">
                 </div>
             </div>
+
             <div class="row">
                 <div class="column">
                     <label for="subject">Title</label>
@@ -36,14 +39,34 @@
                     <input type="tel" id="phone" placeholder="Phone number here">
                 </div>
             </div>
+
             <div class="row">
                 <div class="column">
                     <label for="message">Message</label>
                     <textarea id="message" placeholder="Leave your message here"></textarea>
-
                 </div>
             </div>
-            <button>Submit</button>
+
+            
+            <div class="row">
+                <label for="Bathroom">
+                    <input id="Bathroom" type="radio" name="project" value="Bathroom" />
+                    Bathroom
+                </label>
+                
+                <label for="Bathroom">
+                    <input id="Kitchen" type="radio" name="project" value="Kitchen" />
+                    Kitchen
+                </label>
+
+                <label for="Bathroom">
+                    <input id="Other" type="radio" name="project" value="Other" />
+                    Other
+                </label>
+            </div>
+            
+
+            <button type="submit">Submit</button>
         </form>
     </div>
 
